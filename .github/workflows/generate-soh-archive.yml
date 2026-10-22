@@ -1,8 +1,9 @@
 name: Generate SoH Archive
 
 on:
+  workflow_dispatch:
   push:
-    branches: [ "Custom-Music-2.0" ] 
+    branches: [ "Custom-Music-2.0" ]
 
 jobs:
   build:
